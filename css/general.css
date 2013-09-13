@@ -1,0 +1,172 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	background: url('IMG_1819.png') no-repeat center center  fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	font: normal 100%/1.5;
+}
+
+img {
+	max-width:100%;
+}
+
+a,
+a:link,
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	border-color: #FC0;
+	color: #FC0;
+}
+
+article {
+	padding:1.5em;
+	border-radius: 1em;
+	overflow:hidden;
+	background-color: rgba(255, 255, 255, 0.7)
+}
+
+
+
+header p { 
+	padding-left: 1rem;
+}
+
+p {
+	font-size:1em;
+	color: #000;
+	
+}
+
+.intro {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin: 1.4em -0.5em;
+	padding: 0.5em;
+}
+
+.flex-img {
+	width:100%;	
+	border-radius: 1em;
+}
+
+
+dl {
+	overflow:hidden;
+	/* clearfix reminds the element to wrap aroud all of its floated children */
+}
+
+dt {
+	color:#333;
+}
+
+dd {
+	margin: 0;
+}
+
+figure {
+	margin:0 -0.5em;
+}
+
+h2 {
+	font-size:1rem;
+}
+
+
+
+@media only screen and (min-width: 25em) {
+	dt { 
+	float: left;
+	clear: both;
+	width: 5em;
+	}
+	dd { 
+	float: left;
+	}
+}
+
+@media only screen and (min-width: 37em) {
+	figure {
+		float:left;
+		width: 40%;
+		margin: 0;
+	}
+	
+	.bio {
+		float: right;
+		width: 55%;
+		margin-top: -2em;
+	}
+	
+	dt {
+		float:none;
+	}
+	
+	.intro {
+		border-top: 0;
+	}
+	
+	p { 
+	border-bottom: 1px solid #000;
+	}
+	
+	h1 {
+		border-bottom: 1px solid #000;
+		padding: 0 0 1em 0;
+	}
+}
+
+@media only screen and (min-width: 55em) {
+	dt { 
+	float: left;
+	clear: both;
+	width: 10em;
+	}
+	dd { 
+	float: left;
+	}
+	
+	.social media {
+		float: right;
+		overflow:hidden;
+	}
+}
+
+@media only screen and (min-width: 100em) {
+	html {
+		font-size:2rem;
+	}
+}
+
+@media only screen and (min-width: 110em) {
+	html {
+		font-size:2.3rem;
+	}
+}
+
+@media only screen and (min-width: 130em) {
+	html {
+		font-size:2.5rem;
+	}
+}
+
+
+@media only screen and (min-width: 187em) {
+	html {
+		font-size:3rem;
+	}
+}
+
