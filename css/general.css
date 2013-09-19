@@ -59,8 +59,10 @@ p {
 }
 
 .flex-img {
-	width:100%;	
-	border-radius: 1em;
+	width:100%;
+	padding: 2%;	
+	border-radius: 2em;
+	
 }
 
 
